@@ -1,5 +1,5 @@
 import React from "react";
-import { cssSearch } from "./../styles/SearchForm.css";
+import cssSearch from "./../styles/SearchForm.css";
 
 export default function SearchForm({
   onHandleFormSubmit,
