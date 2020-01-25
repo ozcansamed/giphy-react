@@ -13,7 +13,7 @@ export default function Friend() {
     try {
       setLoading(true);
       const resp = await fetch(
-        `https://api.giphy.com/v1/gifs/search?api_key=palgPaG3jJE3uDM53pzNuut83NzGz6Hi&q=${searchString}`
+        `https://api.giphy.com/v1/gifs/search?api_key=${process.env.REACT_APP_GIPHY_KEY}&q=${searchString}`
       );
       const data = await resp.json();
       setError(false);
