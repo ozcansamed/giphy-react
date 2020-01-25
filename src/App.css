@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+
+input {
+  width: 300px
+}
+
+ul {
+  list-style-type: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
