@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import GiphyMaker from "./Giphymaker";
 import SearchForm from "./SearchForm";
 
-export default function Friend() {
+export default function Giphy() {
   const [giphy, setGiphy] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
